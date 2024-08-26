@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Resume</title>
+  <link rel="stylesheet" type="text/css" href="./style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"> 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css"> 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.js"></script> 
+  <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+<!-- 
+
+  <div id="animated-text-strip">
+  <span class="marquee">👋Welcome to my portfolio!&nbsp;</span>
+  <span class="marquee">👋Welcome to my portfolio!&nbsp;</span>
+  <span class="marquee">👋Welcome to my portfolio!&nbsp;</span>
+  <span class="marquee">👋Welcome to my portfolio!&nbsp;</span>
+</div>
+
+-->
+
+
+<section id="navbar">
+ <nav class="navbar-custom navbar-expand-md sticky-top">
+  <div class="container">
+    <a class="navbar-brand d-md-none" href="#">
+      <svg class="bi" width="24" height="24"><use xlink:href="#aperture"></use></svg>
+      Aperture
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvas" aria-controls="offcanvas" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvas" aria-labelledby="offcanvasLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasLabel">Aperture</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <ul class="navbar-nav flex-grow-1 justify-content-between">
+          <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+          <li class="nav-item"><a class="nav-link" href="#career-highlights">Career Highlights</a></li>
+          <li class="nav-item"><a class="nav-link" href="#courses">Courses</a></li>
+          <li class="nav-item"><a class="nav-link" href="#publications">Publications</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact-form"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope-fill" viewBox="0 0 16 16">
+            <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414zM0 4.697v7.104l5.803-3.558zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586zm3.436-.586L16 11.801V4.697z"/>
+          </svg></a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+</section>
+
+<!-- Intro / background -->
+
+<div class="container-fluid" id="home">
+  <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+    <div class="col-10 col-sm-8 col-lg-6" id="bob">
+      <img src="./images/Robert Murtagh.png" id="bob" class="d-block mx-lg-auto img-fluid" alt="Cartoon Programmer giving a thumbs up" width="700" height="500" loading="lazy">
+    </div>
+    <div class="col-lg-6" id="Intro">
+      <h1 class="display-4 fw-bold text-body-emphasis lh-1 mb-3">My Story</h1>
+      <p class="lead">Once lawyer-in-training, Samuel Beckett Doctoral candidate (ABD), decadal English Instructor, viral influencer, now a clean-code enthusiast, a syntax stickler, who's looking for his space between angle brackets...</p>
+      <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+        <a href="#education"><button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Tell Me More</button></a>
+        <a href="#contact-form"><button type="button" class="btn btn-outline-secondary btn-lg px-4">You Had Me At Hello!</button></a>
+      </div>  
+    </div>
+  </div>
+</div>
+
+
+  <!-- Education -->
+
+<section id="education">
+<div class="container-fluid2"><br><br>
+  <div class="container px-4 py-5 pb-0" id="hanging-icons">
+    <h2 class="pb-2 border-bottom">Education</h2>
+    <div class="row g-4 py-4 row-cols-1 row-cols-lg-3">
+      <div class="col d-flex align-items-start">
+        <div class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-mortarboard-fill" viewBox="0 0 16 16">
+            <path d="M8.211 2.047a.5.5 0 0 0-.422 0l-7.5 3.5a.5.5 0 0 0 .025.917l7.5 3a.5.5 0 0 0 .372 0L14 7.14V13a1 1 0 0 0-1 1v2h3v-2a1 1 0 0 0-1-1V6.739l.686-.275a.5.5 0 0 0 .025-.917z"/>
+            <path d="M4.176 9.032a.5.5 0 0 0-.656.327l-.5 1.7a.5.5 0 0 0 .294.605l4.5 1.8a.5.5 0 0 0 .372 0l4.5-1.8a.5.5 0 0 0 .294-.605l-.5-1.7a.5.5 0 0 0-.656-.327L8 10.466z"/>
+          </svg>        </div>
+        <div>
+          <h3 class="fs-2 text-body-emphasis">2019-2020</h3>
+          <p><i>University of Almería</i><br> PhD English Literature <br> (paused indefinitely).</p><br>
+          <a href="https://www.ual.es/en" target="_blank" loading="lazy" class="btn btn-primary">
+            Learn More
+          </a>
+        </div>
+      </div>
+      <div class="col d-flex align-items-start">
+        <div class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+            <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
+          </svg>        </div>
+        <div>
+          <h3 class="fs-2 text-body-emphasis">2016-2017</h3>
+          <p><i>University of Edinburgh</i><br> MSc English Literature & <br> Modernity:  1900 to the Present.</p><br>
+          <a href="https://www.ed.ac.uk/studying/postgraduate/degrees/index.php?r=site/view&id=177#:~:text=Programme%20description&text=Your%20studies%20will%20take%20you,continuing%20impact%20of%20their%20innovations." target="_blank" loading="lazy" class="btn btn-primary">
+            Learn More
+          </a>
+        </div>
+      </div>
+      <div class="col d-flex align-items-start">
+        <div class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-award-fill" viewBox="0 0 16 16">
+            <path d="m8 0 1.669.864 1.858.282.842 1.68 1.337 1.32L13.4 6l.306 1.854-1.337 1.32-.842 1.68-1.858.282L8 12l-1.669-.864-1.858-.282-.842-1.68-1.337-1.32L2.6 6l-.306-1.854 1.337-1.32.842-1.68L6.331.864z"/>
+            <path d="M4 11.794V16l4-1 4 1v-4.206l-2.018.306L8 13.126 6.018 12.1z"/>
+          </svg>
+        </div>
+        <div>
+          <h3 class="fs-2 text-body-emphasis">2015</h3>
+          <p><i>International House Dublin</i><br> Pass B CELTA.</p><br><br>
+          <a href="https://ihdublin.com/courses/teacher-training/university-of-cambridge-celta-courses/" target="_blank" loading="lazy" class="btn btn-primary">
+            Learn More
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<div class="container">
+  <div class="container px-4 py-5 pt-0 pb-2" id="hanging-icons">
+    <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+      <div class="col d-flex align-items-start">
+        <div class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-translate" viewBox="0 0 16 16">
+            <path d="M4.545 6.714 4.11 8H3l1.862-5h1.284L8 8H6.833l-.435-1.286zm1.634-.736L5.5 3.956h-.049l-.679 2.022z"/>
+            <path d="M0 2a2 2 0 0 1 2-2h7a2 2 0 0 1 2 2v3h3a2 2 0 0 1 2 2v7a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2v-3H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v7a1 1 0 0 0 1 1h7a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zm7.138 9.995q.289.451.63.846c-.748.575-1.673 1.001-2.768 1.292.178.217.451.635.555.867 1.125-.359 2.08-.844 2.886-1.494.777.665 1.739 1.165 2.93 1.472.133-.254.414-.673.629-.89-1.125-.253-2.057-.694-2.82-1.284.681-.747 1.222-1.651 1.621-2.757H14V8h-3v1.047h.765c-.318.844-.74 1.546-1.272 2.13a6 6 0 0 1-.415-.492 2 2 0 0 1-.94.31"/>
+          </svg>
+        </div>
+        <div>
+          <h3 class="fs-2 text-body-emphasis">
+            2011-2015</h3>
+          <p><i>University College Dublin</i><br> First Class Honours BA <br>(International) Spanish & English.</p>
+          <a href="https://www.myucd.ie/courses/arts-humanities/" target="_blank" loading="lazy" class="btn btn-primary">
+            Learn More
+          </a>
+        </div>
+      </div>
+      <div class="col d-flex align-items-start">
+        <div class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chat-right-quote" viewBox="0 0 16 16">
+            <path d="M2 1a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h9.586a2 2 0 0 1 1.414.586l2 2V2a1 1 0 0 0-1-1zm12-1a2 2 0 0 1 2 2v12.793a.5.5 0 0 1-.854.353l-2.853-2.853a1 1 0 0 0-.707-.293H2a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2z"/>
+            <path d="M7.066 4.76A1.665 1.665 0 0 0 4 5.668a1.667 1.667 0 0 0 2.561 1.406c-.131.389-.375.804-.777 1.22a.417.417 0 1 0 .6.58c1.486-1.54 1.293-3.214.682-4.112zm4 0A1.665 1.665 0 0 0 8 5.668a1.667 1.667 0 0 0 2.561 1.406c-.131.389-.375.804-.777 1.22a.417.417 0 1 0 .6.58c1.486-1.54 1.293-3.214.682-4.112z"/>
+          </svg>
+        </div>
+        <div>
+          <h3 class="fs-2 text-body-emphasis">2014</h3>
+          <p>Second Language Teaching & Learning <br> (Core Module of the MA in Applied Linguistics).</p>
+          <a href="https://hub.ucd.ie/usis/!W_HU_MENU.P_PUBLISH?p_tag=COURSE&MAJR=Z360" target="_blank" loading="lazy" class="btn btn-primary">
+            Learn More
+          </a>
+        </div>
+      </div>
+      <div class="col d-flex align-items-start">
+        <div class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bank" viewBox="0 0 16 16">
+            <path d="m8 0 6.61 3h.89a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.5.5H15v7a.5.5 0 0 1 .485.38l.5 2a.498.498 0 0 1-.485.62H.5a.498.498 0 0 1-.485-.62l.5-2A.5.5 0 0 1 1 13V6H.5a.5.5 0 0 1-.5-.5v-2A.5.5 0 0 1 .5 3h.89zM3.777 3h8.447L8 1zM2 6v7h1V6zm2 0v7h2.5V6zm3.5 0v7h1V6zm2 0v7H12V6zM13 6v7h1V6zm2-1V4H1v1zm-.39 9H1.39l-.25 1h13.72z"/>
+          </svg>
+        </div>
+        <div>
+          <h3 class="fs-2 text-body-emphasis">2007-2010</h3>
+          <p><i>University College Cork</i><br>BCL Bachelor of Civil Law.</p><br>
+          <a href="https://www.ucc.ie/en/ck301/#:~:text=The%20BCL%20at%20UCC%20is,elective%20areas%20of%20legal%20study." target="_blank" loading="lazy" class="btn btn-primary">
+            Learn More
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</section>
+
+<!-- Career Hightlights -->
+
+<section id="career-highlights">
+<div class="container">
+  <div class="row featurette pt-5 pb-5">
+    <h2 class="pb-2 border-bottom mb-4">Career Highlights</h2>
+    <div class="row row-cols-1 row-cols-md-3 g-2">
+  <div class="col">
+    <div class="card h-100">
+      <img src="./images/ADVETI (colored).png" class="card-img-top" alt="Lecturer seated with a large smartboard teaching a class.">
+      <div class="card-body">
+        <h5 class="card-title"><b>English Instructor</b><span class="small"> (Aug 2022 - Dec 2023)</span></h5>
+        <p class="card-text">Provided exceptional EmSAT-focused tuition as per ADVETI's mission of empowering Emiratis
+          with the competencies needed to contribute to the Nation's future development through workplace
+          focused, lifelong technical and vocational education.</p>
+      </div>
+      <div class="card-footer">
+        <small class="text-body-secondary">Al Jazirah Institute of Science & Technology, Abu Dhabi.</small>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+      <img src="./images/MOE.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title"><b>English Instructor</b><span class="small"> (Nov 2018 - Aug 2021)</span></h5>
+        <p class="card-text">Successfully transitioned to online learning during the pandemic, becoming proficient in the use of platforms that include: LMS, Microsoft Teams, NearPod, Quizizz, Kahoot!, Padlet, ClassDojo, WordWall and Quizlet.</p>
+      </div>
+      <div class="card-footer">
+        <small class="text-body-secondary">UAE Ministry of Education, Fujairah.</small>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+      <img src="./images/CH.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title"><b>English Instructor</b><span class="small"> (Sept 2015 - Jul 2016)</span></h5>
+        <p class="card-text">Provided over 1100 hours of Cambridge Exam Preparation from KET to CAE; 
+          Gained extensive experience with eBeam software and iPacks (interactive whiteboard); 
+          Developed professionally through bi-monthly reviews & semestral training.</p>
+      </div>
+      <div class="card-footer">
+        <small class="text-body-secondary"> Cambridge House English Schools, Madrid.</small>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</section>
+
+<!-- Ongoing Self-Study -->
+
+<section id="courses">
+<div class="container">
+<div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg" id="colored-course">
+  <div class="col-lg-4 p-3 p-lg-5 pt-lg-3">
+    <h1 class="display-4 fw-bold lh-1 text-body-emphasis">Courses</h1>
+    <p class="lead">I am currently focusing on the Complete 2024 Web Development Bootcamp along with Harvard's CS50 Introduction to Computer Science, which combined cover comprehensive front-end and back-end development as well as the fundamentals of computer science.</p>
+    <div class="d-grid gap-2 d-md-flex justify-content-md-start mb-4 mb-lg-3">
+      <a href="https://www.udemy.com/course/the-complete-web-development-bootcamp/" target="_blank">
+      <button type="button" class="btn btn-primary btn-lg px-4 me-md-2 fw-bold">Full-Stack</button></a>
+      <a href="https://pll.harvard.edu/course/cs50-introduction-computer-science" target="_blank">
+      <button type="button" class="btn btn-outline-secondary btn-lg px-4">CS50</button></a>
+    </div>
+  </div>
+  <div class="col-lg-7 p-0 overflow-hidden shadow-1g">
+    <div id="carouselExample" class="carousel slide">
+      <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="rounded-lg-8" src="./images/final CWDB.png" width="790" class="d-block w-100" alt="Udemy Complete Web Development Course 2024 Screenshot">
+  </div>
+  <div class="carousel-item">
+    <img class="rounded-lg-8" src="./images/final CS50.png" width="790" class="d-block w-100" alt="Harvard CS50 Computer Science Screenshot">
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+</section>
+
+
+<!-- carousel -->
+
+  <!-- Publications-->
+<section id="publications">
+  <div class="container">
+    <div class="row featurette pt-4 pb-2">
+      <h2 class="pb-2 mb-1">Publications</h2></div>
+      <div class="row mb-2">
+        <div class="col-md-6">
+      <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+        <div class="col p-4 d-flex flex-column position-static">
+          <strong class="d-inline-block mb-2 text-primary-emphasis">Book Chapter</strong>
+          <h3 class="mb-0">Translating Samuel <br> Beckett Around the World</h3>
+          <div class="mb-1 text-body-secondary">Palgrave, Macmillan, 2021</div>
+          <p class="card-text mb-auto">““Half in Love”: The Translation and <br> Reception of Samuel Beckett in Spain.”</p>
+          <a href="https://catalogue.nli.ie/Record/vtls000848655/TOC" target="_blank" class="icon-link gap-1 icon-link-hover stretched-link">
+            Find Book 
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708"/>
+            </svg></a>
+        </div>
+        <div class="col-auto d-none d-lg-block">
+          <img src="./images/Book.webp" width="200" height="250">
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+        <div class="col p-4 d-flex flex-column position-static">
+          <strong class="d-inline-block mb-2 text-success-emphasis">Book Review</strong>
+          <h3 class="mb-0">Miscelánea: a Journal of English and American Studies.</h3>
+          <div class="mb-1 text-body-secondary">vol 60, 2019</div>
+          <p class="mb-auto">“Frasier: A Cultural History” (Darowski & Darowski. London: Rowman & Littlefield).</p>
+          <a href="https://www.academia.edu/41249637/Miscel%C3%A1nea_A_Journal_of_English_and_American_Studies_Vol_60_2019_" target="_blank" class="icon-link gap-1 icon-link-hover stretched-link">
+            Read Now
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708"/>
+            </svg>
+          </a>
+        </div>
+        <div class="col-auto d-none d-lg-block">
+          <img src="./images/Book Review.png" width="200" height="250">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+
+  <!-- Projects-->
+
+  <!-- Skills -->
+
+  <!-- About Me -->
+  
+  <!-- Contact Me -->
+
+  <!-- Contact Me Form -->
+
+<section id="contact-form">
+<div class="container-contact">
+  <span class="big-circle"></span>
+  <img src="img/shape.png" class="square" alt="" />
+  <div class="form">
+    <div class="contact-info">
+      <h3 class="title">Let's get in touch</h3>
+      <p class="text">
+        Whether you want to work together, have a project idea, or just want to say hello, I'd love to hear from you. Touch base and I'll get back to you as soon as possible. Let's do this! 🚀
+      </p>
+
+      <div class="info">
+        <div class="information">
+          <img src="./images/geo-alt.svg" class="icon" alt="location icon"/>
+          <p>Wexford, Emerald Isle of Ireland</p>
+        </div>
+        <div class="information">
+          <img src="./images/envelope.svg" class="icon" alt="envelope icon"/>
+          <p>robertpatrickmurtagh@gmail.com</p>
+        </div>
+        <div class="information">
+          <img src="./images/telephone.svg" class="icon" alt="telephone icon"/>
+          <p>(085) 247 9502</p>
+        </div>
+        <div class="information">
+          <img src="./images/CV-dl.svg" class="icon" alt="CV icon"/>
+          <a href="./images/Robert Patrick Murtagh CV.pdf" download="./images/Robert Patrick Murtagh CV.pdf" target="_blank"><p>Download  My Resume</p></a>
+        </div>
+      </div>
+
+      <div class="social-media">
+        <p>Let's go viral:</p>
+        <div class="social-icons">
+          <a href="https://www.instagram.com/guitarwithbob/reels/" target="_blank">
+            <img src="./images/instagram.svg" class="social-icon" alt="instagram icon"/>
+          </a>
+          <a href="https://www.tiktok.com/@guitarwithbob" target="_blank">
+            <img src="./images/tiktok.svg" class="social-icon" alt="tiktok icon"/>
+          </a>
+          <a href="https://www.youtube.com/@guitarwithbob/" target="_blank">
+            <img src="./images/youtube.svg" class="social-icon" alt="youtube icon"/>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="contact-form">
+      <span class="circle one"></span>
+      <span class="circle two"></span>
+
+      <form action="https://api.web3forms.com/submit" method="POST" autocomplete="off">
+        <h3 class="title">Contact me</h3>
+        <input type="hidden" name="access_key" value="f500b3e3-4db2-4832-ba03-0eea78ed089c">
+        <div class="input-container">
+          <input type="text" name="name" class="input" />
+          <label for="">Name</label>
+          <span>Name</span>
+        </div>
+        <div class="input-container">
+          <input type="email" name="email" class="input" />
+          <label for="">Email</label>
+          <span>Email</span>
+        </div>
+        <div class="input-container">
+          <input type="tel" name="phone" class="input" />
+          <label for="">Phone</label>
+          <span>Phone</span>
+        </div>
+        <div class="input-container textarea">
+          <textarea name="message" class="input"></textarea>
+          <label for="">Message</label>
+          <span>Message</span>
+        </div>
+        <input type="submit" value="Send" class="contactformbutton"/>
+      </form>
+    </div>
+  </div>
+</div>
+
+<script src="app.js"></script>
+</section>
+
+<!-- Testimonials -->
+
+<section id="Testimonials">
+  <div class="container-testimonial">
+    <div class="row-lg-6" id="left-test">
+      <img src="./images/Johnfinal.png" width="250" id="testimonial-photo">
+      <h4 class="fw-light"><i>"Exceptionally bright & talented."</i></h4>
+      <h6><b>John Troy Fritchie</b></h6>
+      <p>EMI Lead for Mohamed bin Hamad <br> Alsharqi Boys Cycle 2, MOE, Fujairah.</p>
+      <p id="stars">⭐⭐⭐⭐⭐</p>
+    </div>
+
+    <div>
+      <div class="row-lg-6" id="right-test">
+      <img src="./images/simonfinal.png" width="250" id="testimonial-photo">
+      <h4 class="fw-light"><i>"An accomplished & professional teacher <br>as well as a popular member of the team."</i></h4>
+      <h6><b>Simon Williamson</b></h6>
+      <p>Country Manager of Instruction,<br>Berlitz Corporation, Madrid.</p>
+      <p id="stars">⭐⭐⭐⭐⭐</p>    
+    </div>
+  </div>
+  </div>
+  </div>
+</section>
+
+<!-- ducks -->
+
+<div id="animated-text-strip">
+  <span class="marquee"><img src="./images/Rubber Duck icon.png" height="75"><img src="./images/Rubber Duck icon.png" height="75"><img src="./images/Rubber Duck icon.png" height="75">&nbsp;</span>
+  <span class="marquee"><img src="./images/Rubber Duck icon.png" height="75"><img src="./images/Rubber Duck icon.png" height="75"><img src="./images/Rubber Duck icon.png" height="75">&nbsp;</span>
+  <span class="marquee"><img src="./images/Rubber Duck icon.png" height="75"><img src="./images/Rubber Duck icon.png" height="75"><img src="./images/Rubber Duck icon.png" height="75">&nbsp;</span>
+  <span class="marquee"><img src="./images/Rubber Duck icon.png" height="75"><img src="./images/Rubber Duck icon.png" height="75"><img src="./images/Rubber Duck icon.png" height="75">&nbsp;</span>
+  <span class="marquee"><img src="./images/Rubber Duck icon.png" height="75"><img src="./images/Rubber Duck icon.png" height="75"><img src="./images/Rubber Duck icon.png" height="75">&nbsp;</span>
+  <span class="marquee"><img src="./images/Rubber Duck icon.png" height="75"><img src="./images/Rubber Duck icon.png" height="75"><img src="./images/Rubber Duck icon.png" height="75">&nbsp;</span> 
+</div>
+
+  <!-- Footer -->
+
+  <section id="footer>
+  <div class="container">
+    <footer class="py-3">
+      <ul class="nav justify-content-center pb-3 mb-3">
+        <li class="nav-item"><a href="#home" class="nav-link px-2 text-body-secondary">Home</a></li>
+        <li class="nav-item"><a href="#education" class="nav-link px-2 text-body-secondary">Education</a></li>
+        <li class="nav-item"><a href="#career-highlights" class="nav-link px-2 text-body-secondary">Career Highlights</a></li>
+        <li class="nav-item"><a href="#courses" class="nav-link px-2 text-body-secondary">Courses</a></li>
+        <li class="nav-item"><a href="#publications" class="nav-link px-2 text-body-secondary">Publications</a></li>
+        <li class="nav-item"><a href="#contact-form" class="nav-link px-2 text-body-secondary">Contact</a></li>
+      </ul>
+      <p class="text-center text-body-secondary">© 2024 Robert Murtagh (Online CV - version 2.0 - designed for desktop)</p>
+    </footer>
+  </div>
+</section>
+
+</body>
+
+</html>
